@@ -1,0 +1,30 @@
+.categoria-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+
+.categoria-item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.categoria-item button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.lixeira {
+    font-size: 18px;
+}
+
+.lixeira:hover {
+    color: rgb(255, 66, 66);
+    cursor: pointer;
+}
