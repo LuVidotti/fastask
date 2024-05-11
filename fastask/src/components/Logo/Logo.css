@@ -1,0 +1,20 @@
+.logotipo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logotipo__icon {
+    font-size: 22px;
+    background-color: #228BE6;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.logotipo h1 {
+    font-size: 32px;
+    color: #228BE6;
+    font-weight: 700;
+}

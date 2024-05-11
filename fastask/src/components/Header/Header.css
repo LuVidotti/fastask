@@ -1,0 +1,30 @@
+.cabecalho {
+    padding: 2em 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-div {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.perfil-div h4 {
+    color: #000000;
+    font-weight: 500;
+    background-color: #d4d4d4;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.perfil-div h4:hover {
+    background-color: #aaaaaa;
+}
+
+.perfil-div img {
+    width: 70px;
+    border-radius: 50%;
+}

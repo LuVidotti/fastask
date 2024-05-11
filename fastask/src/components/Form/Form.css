@@ -1,0 +1,38 @@
+.input-caixa {
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #939393;
+}
+
+.form button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.form__icon {
+    cursor: pointer;
+    color: #228BE6;
+    font-size: 18px;
+}

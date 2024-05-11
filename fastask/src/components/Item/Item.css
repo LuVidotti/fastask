@@ -1,0 +1,35 @@
+.lista-item {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.active {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 200px;
+    background-color: rgb(2, 175, 248, 0.28);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.pending {
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 200px;
+    background-color: gray;
+    font-size: 14px;
+}

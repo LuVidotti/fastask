@@ -1,0 +1,15 @@
+.nav-container {
+    display: flex;
+    padding: 1em 3em;
+    gap: 5em;
+}
+
+.principal {
+    width: 100vw;
+}
+
+.principal h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
