@@ -1,3 +1,5 @@
+import CategoriaItem from "../../components/CategoriaItem";
+import Form from "../../components/Form";
 import Header from "../../components/Header";
 import Nav from "../../components/Nav";
 
@@ -7,10 +9,13 @@ function ProximosDias() {
             <Header />
             <div className="nav-container">
                 <Nav />
-                <div>
-                    <h1>
-                        Proximos 7 dias
-                    </h1>
+                <div className="principal">
+                    <h1>Próximos 7 dias</h1>
+                    <Form />
+                    <div className="tarefas">
+                        <CategoriaItem titulo="Buscar a lolozinha"/>
+                        <CategoriaItem titulo="Comprar neosoro"/>
+                    </div>
                 </div>
             </div>
         </div>
