@@ -1,0 +1,79 @@
+.login-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login-container__card {
+    border-radius: 50px;
+    background: #ececec;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    height: 60vh;
+    width: 25vw;
+    padding: 32px;
+}
+
+.login-container__card h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: rgb(0, 158, 226)
+}
+
+.login-container__card label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container__card input {
+    width: 100%;
+    margin-bottom: 26px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 3px solid rgb(206, 206, 206);
+    background-color: transparent;
+    transition: all 0.25s;
+}
+
+.login-container__card input:focus {
+    border-bottom: 3px solid rgb(0, 158, 226);
+    outline: none;
+}
+
+.login-container__card form button {
+    padding: 10px;
+    background-color: rgb(0, 158, 226);
+    color: #FFFFFF;
+    border: none;
+    width: 30%;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.25s;
+}
+
+.login-container__card form button:hover {
+    background-color: rgb(0, 134, 192);
+}
+
+.criar-conta-area {
+    text-align: center;
+    margin-top: 4em;
+}
+
+.criar-conta-area p {
+    font-size: 18px;
+    color: gray;
+}
+
+.criar-conta__link {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.criar-conta__link:hover {
+    color: rgb(0, 134, 192);
+}
