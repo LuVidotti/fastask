@@ -1,3 +1,9 @@
+.criar-conta-container {
+    display: grid;
+    place-items: center;
+    padding: 3em;
+}
+
 .login-container {
     display: grid;
     place-items: center;
@@ -9,7 +15,6 @@
     background: #ececec;
     box-shadow:  20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff;
-    height: 60vh;
     width: 25vw;
     padding: 32px;
 }

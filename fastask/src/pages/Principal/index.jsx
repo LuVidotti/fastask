@@ -1,8 +1,10 @@
+import { useEffect, useState } from "react";
 import CategoriaItem from "../../components/CategoriaItem";
 import Form from "../../components/Form";
 import Header from "../../components/Header";
 import Nav from "../../components/Nav";
 import "./Principal.css";
+import axios from "axios";
 
 function Principal() {
     return(

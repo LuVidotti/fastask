@@ -17,7 +17,7 @@ function Login() {
 
                     <div className="criar-conta-area">
                         <p>Ainda não tem uma conta?</p>
-                        <Link className="criar-conta__link">Criar conta</Link>
+                        <Link to="/criar-conta" className="criar-conta__link">Criar conta</Link>
                     </div>  
                 </form>
             </div>
