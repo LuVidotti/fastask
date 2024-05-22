@@ -1,0 +1,75 @@
+.modal {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    right: 50%;
+    border-radius: 50px;
+    background: #ececec;
+    box-shadow:  20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    width: 25vw;
+    padding: 32px;
+}
+
+.modal-fechado {
+    display: none;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal form h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: rgb(0, 158, 226)
+}
+
+.modal form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modal form input {
+    padding: 10px 0 10px 5px;
+    background-color: #cbcbcb;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.cancelar {
+    padding: 10px;
+    background-color: rgb(255, 59, 29);
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.cancelar:hover {
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+
+.add-lista {
+    padding: 10px;
+    background-color: rgb(0, 158, 226);
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.25s;
+}
+
+.add-lista:hover {
+    box-shadow: 5px 5px 20px #5a5a5a;
+}
+

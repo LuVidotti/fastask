@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Item.css";
 
-function Item({ itemNome, numero, href }) {
+function Item({ itemNome, href }) {
     return (
         <li>
             <NavLink 
@@ -11,7 +11,6 @@ function Item({ itemNome, numero, href }) {
                 }
             >
                 <p>{itemNome}</p>
-                <span>{numero}</span>
             </NavLink>
         </li>
     )

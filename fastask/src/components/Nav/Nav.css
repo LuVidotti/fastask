@@ -5,3 +5,15 @@
 .navbar__listas {
     margin-top: 3em;
 }
+
+.criar-lista {
+    display: block;
+    background-color: transparent;
+    border: none;
+    margin: 0 0 20px 0;    
+}
+
+.criar-lista:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

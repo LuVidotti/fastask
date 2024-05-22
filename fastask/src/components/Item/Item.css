@@ -2,7 +2,7 @@
     color: #000000;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 12px;
     width: 200px;
@@ -13,7 +13,7 @@
     color: #000000;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 12px;
     width: 200px;
