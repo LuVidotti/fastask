@@ -4,6 +4,7 @@ import Principal from "./pages/Principal";
 import Login from "./pages/Login";
 import ProximosDias from "./pages/ProximosDias";
 import CriarConta from "./pages/CriarConta";
+import Lista from "./pages/Lista";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/tarefas/proximos-7-dias" Component={ProximosDias}/>
         <Route path="/login" Component={Login}/>
         <Route path="/criar-conta" Component={CriarConta}/>
+        <Route path="/listas/:idLista" Component={Lista}/>
       </Routes>
     </BrowserRouter>
   )

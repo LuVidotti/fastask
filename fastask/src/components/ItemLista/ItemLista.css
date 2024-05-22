@@ -1,0 +1,11 @@
+.excluir-lista {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    text-decoration: underline;
+}
+
+.excluir-lista:hover {
+    cursor: pointer;
+    color: red;
+}

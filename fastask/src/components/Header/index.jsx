@@ -37,7 +37,7 @@ function Header() {
             <Logo />
             <div className="perfil-div">
                 <h4>{user.nome}</h4>
-                <button onClick={() => sair()}>Sair</button>
+                <button className="btn-sair" onClick={() => sair()}>Sair</button>
                 <img src={`${urlApi}/usuarios/imagem/${foto}`} alt="Foto de perfil do usuario" />
             </div>
         </header>
